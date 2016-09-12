@@ -2,9 +2,9 @@
 
     class Leetspeak
     {
-        function makeLeetspeak_oneWord($input)
+        function makeLeetspeak($input)
         {
-            $input = "I think leet speak is neat!";
+            $input = $_GET['phrase'];
             $leetPhrase = array();
 
             $inputPhrase = str_split($input);

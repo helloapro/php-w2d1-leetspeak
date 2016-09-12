@@ -4,7 +4,7 @@
     class LeetspeakTest extends PHPUnit_Framework_TestCase
     {
 
-        function test_makeLeetspeak_oneWord()
+        function test_makeLeetspeak()
         {
             $test_Leetspeak = new Leetspeak;
             $input = "I think leet speak is neat!";
