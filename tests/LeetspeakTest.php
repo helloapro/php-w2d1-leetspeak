@@ -7,11 +7,11 @@
         function test_makeLeetspeak_oneWord()
         {
             $test_Leetspeak = new Leetspeak;
-            $input = "leet";
+            $input = "I think leet speak is neat!";
 
-            $result = $test_Leetspeak->makeLeetspeak($input);
+            $result = $test_Leetspeak->makeLeetspeak_oneWord($input);
 
-            $this->assertEquals("l33t", $result);
+            $this->assertEquals("1 think l33t 5p3@k i5 n3@t!", $result);
         }
 
     }
